@@ -1,0 +1,55 @@
+﻿<Page
+    x:Class="Cassie.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Cassie"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/cassie's background.jpg"/>
+        </Grid.Background>
+        <Pivot x:ConnectionId='1' x:Name="mainPivot" Title="Cassie"                                              >
+            <PivotItem x:Name="homePivot" Header="Welcome to study!">
+                <ComboBox x:Name="topicCombo" Visibility="Collapsed" HorizontalAlignment="Left" Margin="158,282,0,0" VerticalAlignment="Top" Width="120"/>
+            </PivotItem>
+            <PivotItem x:Name ="addNewTopic" Header="Add New Topic">
+                <Grid>
+                    <TextBox x:Name="topicTextBox" PlaceholderText="Name of new topic" HorizontalAlignment="Left" Margin="89,231,0,0" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" Height="66" Width="350"/>
+                    <Button x:ConnectionId='4' x:Name="topicAddButton" Content="Add this topic" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="152,388,0,0" Height="61" Width="202"                             >
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FF144FCF" Offset="0.566"/>
+                                <GradientStop Color="#FF748EC7" Offset="0.783"/>
+                                <GradientStop Color="#FF6E92E2" Offset="0.193"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <TextBlock x:Name="topicTextBlock" TextAlignment="Center" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="73" Width="288" Margin="115,506,0,0" FontSize="20" Foreground="#FF0D16C9"/>
+
+                </Grid>
+            </PivotItem>
+            <PivotItem x:Name="studyPivot" Header="Study Today">
+                <Grid>
+                    <TextBlock x:Name="topicExplainTextBlock" TextAlignment="Center" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Explain " VerticalAlignment="Top" Foreground="#FF2C60D3" SelectionHighlightColor="#FFCD1DB9" Margin="70,115,0,0" Height="196" Width="333" FontSize="20"/>
+                    <AppBarButton x:ConnectionId='2' x:Name="rightButton" HorizontalAlignment="Left" Icon="Accept" Label="Right!" Margin="58,387,0,0" VerticalAlignment="Top" Height="78" Width="96" RequestedTheme="Light"                          />
+                    <AppBarButton x:ConnectionId='3' x:Name="wrongButton" HorizontalAlignment="Left" Icon="Cancel" Label="Wrong!" Margin="298,387,0,0" VerticalAlignment="Top" Height="78" Width="90" RequestedTheme="Light"                          />
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="Help">
+                <Grid>
+
+                </Grid>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:ConnectionId='5' x:Name="exitBtn"  Icon="Back" Label="Exit" FontFamily="Times New Roman"                       />
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
+

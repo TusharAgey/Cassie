@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-R6D31GO</Machine>
+    <WindowsUser>tushar</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>7d3a6bda-6c3a-4096-9aae-2d63544dbf73</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\tushar\Desktop\Projects\Cassie\Cassie\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\bin\Debug\Cassie.exe">
+      <PackagePath>Cassie.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\Assets\1024516-avl4245srgbv001.1030-1200.jpg">
+      <PackagePath>Assets\1024516-avl4245srgbv001.1030-1200.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\Assets\cassie%27s background.jpg">
+      <PackagePath>Assets\cassie%27s background.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\Assets\tushar22.jpg">
+      <PackagePath>Assets\tushar22.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\Assets\897cdf49f0b9dec1395f47783a82e6c7.gif">
+      <PackagePath>Assets\897cdf49f0b9dec1395f47783a82e6c7.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\Assets\cortanagif.gif">
+      <PackagePath>Assets\cortanagif.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\Assets\EFasKRy.gif">
+      <PackagePath>Assets\EFasKRy.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\Assets\electron-singularity-animated-gif.gif">
+      <PackagePath>Assets\electron-singularity-animated-gif.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\Assets\giphy.gif">
+      <PackagePath>Assets\giphy.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\Assets\tumblr_na3mzp1Pt91s2t3cto1_500.gif">
+      <PackagePath>Assets\tumblr_na3mzp1Pt91s2t3cto1_500.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\hi.html">
+      <PackagePath>hi.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\bin\Debug\Cassie.xr.xml">
+      <PackagePath>Cassie.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar\Desktop\Projects\Cassie\Cassie\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
